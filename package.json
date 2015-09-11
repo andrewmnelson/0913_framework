@@ -1,0 +1,29 @@
+{
+  "name": "0913_framework",
+  "version": "0.1.0",
+  "description": "A useful framework for server implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewmnelson/0913_framework.git"
+  },
+  "keywords": [
+    "server",
+    "framework"
+  ],
+  "author": "andrewmnelson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrewmnelson/0913_framework/issues"
+  },
+  "homepage": "https://github.com/andrewmnelson/0913_framework#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.2"
+  }
+}
