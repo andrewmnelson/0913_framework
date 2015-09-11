@@ -9,8 +9,8 @@ var framework = require('../index');
 var mockResponse = {};
 mockResponse.head = { status: 0, type: null };
 mockResponse.writeHead = function(stat, type) {
-  head.status = stat;
-  head.type = type;
+  this.head.status = stat;
+  this.head.type = type;
 };
 
 describe('framework', function() {
