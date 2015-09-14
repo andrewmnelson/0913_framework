@@ -1,6 +1,6 @@
 {
   "name": "comprest",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A productivity framework for Node.js REST applications",
   "main": "index.js",
   "scripts": {
