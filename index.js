@@ -12,7 +12,7 @@ CompRest.prototype.text = function(str, status) {
 
 CompRest.prototype.json = function(obj, status) {
   this.resp.writeHead((status? status : 200), {'Content-Type': 'application/json'});
-  this.resp.write(obj);
+  this.resp.write(JSON.stringify(obj));
   this.resp.end();
 };
 

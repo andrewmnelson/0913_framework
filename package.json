@@ -1,7 +1,7 @@
 {
-  "name": "0913_framework",
-  "version": "0.1.0",
-  "description": "A useful framework for server implementation",
+  "name": "comprest",
+  "version": "0.2.0",
+  "description": "A productivity framework for Node.js REST applications",
   "main": "index.js",
   "scripts": {
     "test": "mocha test"
