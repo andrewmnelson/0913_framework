@@ -60,8 +60,8 @@ describe('framework', function() {
 
     expect(mr.head.status).is.eql(200);
     expect(mr.head.type).is.eql({ 'Content-Type': 'application/json'});
-    expect(mr.body).is.eql({ a: 'A', b: 'B', c: 'C' });
-    expect(mr.text).is.eql("");
+    expect(mr.text).is.eql(JSON.stringify({ a: 'A', b: 'B', c: 'C' }));
+    expect(mr.body).is.eql({});
     expect(mr.closed).is.eql(true);
   });
   it('should write non-default status values into response', function() {
