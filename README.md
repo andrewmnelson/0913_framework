@@ -38,7 +38,6 @@ server.listen(3000);
             {'Content-Type': 'text/plain'} );
       resp.write(str);
       resp.end();
-
   If status is not supplied, defaults to 200
 
 - __json(obj, [status])__
@@ -52,7 +51,6 @@ server.listen(3000);
 
 - __pipe(stream, [status])__
   Expands to the following code:
-
 
       resp.writeHead((status? status : 200),
             {'Content-Type': 'text/plain'} );
