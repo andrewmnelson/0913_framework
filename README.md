@@ -9,7 +9,7 @@ A productivity framework for Node.js REST applications.  Student work for class 
 ####Example
 ~~~javascript
 var http = require('http');
-var compRest = require('comprest')(); // note function invocation
+var compRest = require('comprest');
 
 var serverFunction = function(req, resp) {
   if ('/' === req.url) {
@@ -46,7 +46,7 @@ server.listen(3000);
 
       resp.writeHead((status? status : 200),
             {'Content-Type': 'application/json'} );
-      resp.write(JSON.stringify(obj);
+      resp.write(JSON.stringify(obj));
       resp.end();
   If status is not supplied, defaults to 200
 
